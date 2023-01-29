@@ -1,4 +1,4 @@
-//Hey your code goes here..!
+// Code by William (Joe) Brashear
 #define  _GNU_SOURCE
 #include <stdio.h>
 #include <stdlib.h>
