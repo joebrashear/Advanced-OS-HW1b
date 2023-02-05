@@ -1,1 +1,1 @@
-./wcat tests/2.in.a tests/2.in.b 
+valgrind --leak-check=yes --log-file="tests-out/2.leak-info" ./wcat tests/2.in.a tests/2.in.b 
