@@ -23,7 +23,7 @@ int compress(FILE *fp)
         ret = fwrite(&substring_len, sizeof(substring_len), 1, stdout);
         if (ret != 1)
         {
-            fprintf(stderr, "fwrite failed\n");
+            printf("fwrite failed\n");
             return 1;
         }
 
